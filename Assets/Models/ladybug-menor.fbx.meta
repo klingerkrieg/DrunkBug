@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: 96450903990b9f947a641cac15d89d1c
+timeCreated: 1510348735
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Body 1
+    100006: Body_end
+    100008: Bone.002
+    100010: C_Antenna
+    100012: C_Eyes
+    100014: C_FrontDigits
+    100016: C_FrontDigits.001
+    100018: C_FrontThighs
+    100020: C_FrontThighs.001
+    100022: C_Head
+    100024: C_HindDigits.001
+    100026: C_HindThighs
+    100028: C_HindThighs.001
+    100030: C_HindWristLower
+    100032: C_MiddleLeg
+    100034: C_MiddleLeg.001
+    100036: C_MiddleThighs
+    100038: C_MiddleThighs.001
+    100040: C_Mouth
+    100042: C_Neck
+    100044: Cube
+    100046: Cube.001
+    100048: group
+    100050: Head
+    100052: Head_end
+    100054: L_Base1
+    100056: L_Base2
+    100058: L_Base3
+    100060: L_BaseWing
+    100062: L_Paw1
+    100064: L_Paw1_end
+    100066: L_Paw2
+    100068: L_Paw2_end
+    100070: L_Paw3
+    100072: L_Paw3_end
+    100074: L_Shell
+    100076: L_Shell 1
+    100078: L_Shell_end
+    100080: L_Wing
+    100082: L_Wing_end
+    100084: //RootNode
+    100086: Neck
+    100088: R_Base1
+    100090: R_Base2
+    100092: R_Base3
+    100094: R_BaseWing
+    100096: R_Paw1
+    100098: R_Paw1_end
+    100100: R_Paw2
+    100102: R_Paw2_end
+    100104: R_Paw3
+    100106: R_Paw3_end
+    100108: R_Shell
+    100110: R_Shell 1
+    100112: R_Shell_end
+    100114: R_Wing
+    100116: R_Wing_end
+    400000: Armature
+    400002: Body
+    400004: Body 1
+    400006: Body_end
+    400008: Bone.002
+    400010: C_Antenna
+    400012: C_Eyes
+    400014: C_FrontDigits
+    400016: C_FrontDigits.001
+    400018: C_FrontThighs
+    400020: C_FrontThighs.001
+    400022: C_Head
+    400024: C_HindDigits.001
+    400026: C_HindThighs
+    400028: C_HindThighs.001
+    400030: C_HindWristLower
+    400032: C_MiddleLeg
+    400034: C_MiddleLeg.001
+    400036: C_MiddleThighs
+    400038: C_MiddleThighs.001
+    400040: C_Mouth
+    400042: C_Neck
+    400044: Cube
+    400046: Cube.001
+    400048: group
+    400050: Head
+    400052: Head_end
+    400054: L_Base1
+    400056: L_Base2
+    400058: L_Base3
+    400060: L_BaseWing
+    400062: L_Paw1
+    400064: L_Paw1_end
+    400066: L_Paw2
+    400068: L_Paw2_end
+    400070: L_Paw3
+    400072: L_Paw3_end
+    400074: L_Shell
+    400076: L_Shell 1
+    400078: L_Shell_end
+    400080: L_Wing
+    400082: L_Wing_end
+    400084: //RootNode
+    400086: Neck
+    400088: R_Base1
+    400090: R_Base2
+    400092: R_Base3
+    400094: R_BaseWing
+    400096: R_Paw1
+    400098: R_Paw1_end
+    400100: R_Paw2
+    400102: R_Paw2_end
+    400104: R_Paw3
+    400106: R_Paw3_end
+    400108: R_Shell
+    400110: R_Shell 1
+    400112: R_Shell_end
+    400114: R_Wing
+    400116: R_Wing_end
+    2300000: L_Shell 1
+    2300002: R_Shell 1
+    3300000: L_Shell 1
+    3300002: R_Shell 1
+    4300000: R_Shell
+    4300002: L_Shell
+    4300004: Cube.001
+    4300006: Cube
+    4300008: C_MiddleLeg.001
+    4300010: C_HindDigits.001
+    4300012: C_HindThighs.001
+    4300014: C_MiddleThighs.001
+    4300016: C_FrontDigits.001
+    4300018: C_FrontThighs.001
+    4300020: C_HindThighs
+    4300022: C_MiddleThighs
+    4300024: C_Head
+    4300026: C_Eyes
+    4300028: C_MiddleLeg
+    4300030: C_FrontThighs
+    4300032: Body
+    4300034: C_FrontDigits
+    4300036: C_Antenna
+    4300038: C_HindWristLower
+    4300040: C_Neck
+    4300042: C_Mouth
+    7400000: Armature|Flying
+    7400002: Armature|lixo
+    7400004: Armature|Stopped
+    7400006: Armature|Walk
+    7400008: R_Shell|Flying
+    7400010: R_Shell|lixo
+    7400012: Armature|Walk0
+    9500000: //RootNode
+    13700000: Body
+    13700002: C_Antenna
+    13700004: C_Eyes
+    13700006: C_FrontDigits
+    13700008: C_FrontDigits.001
+    13700010: C_FrontThighs
+    13700012: C_FrontThighs.001
+    13700014: C_Head
+    13700016: C_HindDigits.001
+    13700018: C_HindThighs
+    13700020: C_HindThighs.001
+    13700022: C_HindWristLower
+    13700024: C_MiddleLeg
+    13700026: C_MiddleLeg.001
+    13700028: C_MiddleThighs
+    13700030: C_MiddleThighs.001
+    13700032: C_Mouth
+    13700034: C_Neck
+    13700036: Cube
+    13700038: Cube.001
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Flying
+      takeName: Armature|Flying
+      firstFrame: 0
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Body 1
+        weight: 1
+      - path: Armature/Body 1/Body_end
+        weight: 1
+      - path: Armature/Bone.002
+        weight: 1
+      - path: Armature/Bone.002/L_Base1
+        weight: 1
+      - path: Armature/Bone.002/L_Base1/L_Paw1
+        weight: 1
+      - path: Armature/Bone.002/L_Base1/L_Paw1/L_Paw1_end
+        weight: 1
+      - path: Armature/Bone.002/L_Base2
+        weight: 1
+      - path: Armature/Bone.002/L_Base2/L_Paw2
+        weight: 1
+      - path: Armature/Bone.002/L_Base2/L_Paw2/L_Paw2_end
+        weight: 1
+      - path: Armature/Bone.002/L_Base3
+        weight: 1
+      - path: Armature/Bone.002/L_Base3/L_Paw3
+        weight: 1
+      - path: Armature/Bone.002/L_Base3/L_Paw3/L_Paw3_end
+        weight: 1
+      - path: Armature/Bone.002/R_Base1
+        weight: 1
+      - path: Armature/Bone.002/R_Base1/R_Paw1
+        weight: 1
+      - path: Armature/Bone.002/R_Base1/R_Paw1/R_Paw1_end
+        weight: 1
+      - path: Armature/Bone.002/R_Base2
+        weight: 1
+      - path: Armature/Bone.002/R_Base2/R_Paw2
+        weight: 1
+      - path: Armature/Bone.002/R_Base2/R_Paw2/R_Paw2_end
+        weight: 1
+      - path: Armature/Bone.002/R_Base3
+        weight: 1
+      - path: Armature/Bone.002/R_Base3/R_Paw3
+        weight: 1
+      - path: Armature/Bone.002/R_Base3/R_Paw3/R_Paw3_end
+        weight: 1
+      - path: Armature/group
+        weight: 1
+      - path: Armature/L_BaseWing
+        weight: 1
+      - path: Armature/L_BaseWing/L_Wing
+        weight: 1
+      - path: Armature/L_BaseWing/L_Wing/L_Wing_end
+        weight: 1
+      - path: Armature/L_Shell
+        weight: 1
+      - path: Armature/L_Shell/L_Shell_end
+        weight: 1
+      - path: Armature/L_Shell/R_Shell 1
+        weight: 1
+      - path: Armature/Neck
+        weight: 1
+      - path: Armature/Neck/Head
+        weight: 1
+      - path: Armature/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/R_BaseWing
+        weight: 1
+      - path: Armature/R_BaseWing/R_Wing
+        weight: 1
+      - path: Armature/R_BaseWing/R_Wing/R_Wing_end
+        weight: 1
+      - path: Armature/R_Shell
+        weight: 1
+      - path: Armature/R_Shell/L_Shell 1
+        weight: 1
+      - path: Armature/R_Shell/R_Shell_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: C_Antenna
+        weight: 1
+      - path: C_Eyes
+        weight: 1
+      - path: C_FrontDigits
+        weight: 1
+      - path: C_FrontDigits.001
+        weight: 1
+      - path: C_FrontThighs
+        weight: 1
+      - path: C_FrontThighs.001
+        weight: 1
+      - path: C_Head
+        weight: 1
+      - path: C_HindDigits.001
+        weight: 1
+      - path: C_HindThighs
+        weight: 1
+      - path: C_HindThighs.001
+        weight: 1
+      - path: C_HindWristLower
+        weight: 1
+      - path: C_MiddleLeg
+        weight: 1
+      - path: C_MiddleLeg.001
+        weight: 1
+      - path: C_MiddleThighs
+        weight: 1
+      - path: C_MiddleThighs.001
+        weight: 1
+      - path: C_Mouth
+        weight: 1
+      - path: C_Neck
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Stopped
+      takeName: Armature|Stopped
+      firstFrame: 0
+      lastFrame: 86
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Body 1
+        weight: 1
+      - path: Armature/Body 1/Body_end
+        weight: 1
+      - path: Armature/Bone.002
+        weight: 1
+      - path: Armature/Bone.002/L_Base1
+        weight: 1
+      - path: Armature/Bone.002/L_Base1/L_Paw1
+        weight: 1
+      - path: Armature/Bone.002/L_Base1/L_Paw1/L_Paw1_end
+        weight: 1
+      - path: Armature/Bone.002/L_Base2
+        weight: 1
+      - path: Armature/Bone.002/L_Base2/L_Paw2
+        weight: 1
+      - path: Armature/Bone.002/L_Base2/L_Paw2/L_Paw2_end
+        weight: 1
+      - path: Armature/Bone.002/L_Base3
+        weight: 1
+      - path: Armature/Bone.002/L_Base3/L_Paw3
+        weight: 1
+      - path: Armature/Bone.002/L_Base3/L_Paw3/L_Paw3_end
+        weight: 1
+      - path: Armature/Bone.002/R_Base1
+        weight: 1
+      - path: Armature/Bone.002/R_Base1/R_Paw1
+        weight: 1
+      - path: Armature/Bone.002/R_Base1/R_Paw1/R_Paw1_end
+        weight: 1
+      - path: Armature/Bone.002/R_Base2
+        weight: 1
+      - path: Armature/Bone.002/R_Base2/R_Paw2
+        weight: 1
+      - path: Armature/Bone.002/R_Base2/R_Paw2/R_Paw2_end
+        weight: 1
+      - path: Armature/Bone.002/R_Base3
+        weight: 1
+      - path: Armature/Bone.002/R_Base3/R_Paw3
+        weight: 1
+      - path: Armature/Bone.002/R_Base3/R_Paw3/R_Paw3_end
+        weight: 1
+      - path: Armature/group
+        weight: 1
+      - path: Armature/L_BaseWing
+        weight: 1
+      - path: Armature/L_BaseWing/L_Wing
+        weight: 1
+      - path: Armature/L_BaseWing/L_Wing/L_Wing_end
+        weight: 1
+      - path: Armature/L_Shell
+        weight: 1
+      - path: Armature/L_Shell/L_Shell_end
+        weight: 1
+      - path: Armature/L_Shell/R_Shell 1
+        weight: 1
+      - path: Armature/Neck
+        weight: 1
+      - path: Armature/Neck/Head
+        weight: 1
+      - path: Armature/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/R_BaseWing
+        weight: 1
+      - path: Armature/R_BaseWing/R_Wing
+        weight: 1
+      - path: Armature/R_BaseWing/R_Wing/R_Wing_end
+        weight: 1
+      - path: Armature/R_Shell
+        weight: 1
+      - path: Armature/R_Shell/L_Shell 1
+        weight: 1
+      - path: Armature/R_Shell/R_Shell_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: C_Antenna
+        weight: 1
+      - path: C_Eyes
+        weight: 1
+      - path: C_FrontDigits
+        weight: 1
+      - path: C_FrontDigits.001
+        weight: 1
+      - path: C_FrontThighs
+        weight: 1
+      - path: C_FrontThighs.001
+        weight: 1
+      - path: C_Head
+        weight: 1
+      - path: C_HindDigits.001
+        weight: 1
+      - path: C_HindThighs
+        weight: 1
+      - path: C_HindThighs.001
+        weight: 1
+      - path: C_HindWristLower
+        weight: 1
+      - path: C_MiddleLeg
+        weight: 1
+      - path: C_MiddleLeg.001
+        weight: 1
+      - path: C_MiddleThighs
+        weight: 1
+      - path: C_MiddleThighs.001
+        weight: 1
+      - path: C_Mouth
+        weight: 1
+      - path: C_Neck
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walk
+      takeName: Armature|Walk
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Body 1
+        weight: 1
+      - path: Armature/Body 1/Body_end
+        weight: 1
+      - path: Armature/Bone.002
+        weight: 1
+      - path: Armature/Bone.002/L_Base1
+        weight: 1
+      - path: Armature/Bone.002/L_Base1/L_Paw1
+        weight: 1
+      - path: Armature/Bone.002/L_Base1/L_Paw1/L_Paw1_end
+        weight: 1
+      - path: Armature/Bone.002/L_Base2
+        weight: 1
+      - path: Armature/Bone.002/L_Base2/L_Paw2
+        weight: 1
+      - path: Armature/Bone.002/L_Base2/L_Paw2/L_Paw2_end
+        weight: 1
+      - path: Armature/Bone.002/L_Base3
+        weight: 1
+      - path: Armature/Bone.002/L_Base3/L_Paw3
+        weight: 1
+      - path: Armature/Bone.002/L_Base3/L_Paw3/L_Paw3_end
+        weight: 1
+      - path: Armature/Bone.002/R_Base1
+        weight: 1
+      - path: Armature/Bone.002/R_Base1/R_Paw1
+        weight: 1
+      - path: Armature/Bone.002/R_Base1/R_Paw1/R_Paw1_end
+        weight: 1
+      - path: Armature/Bone.002/R_Base2
+        weight: 1
+      - path: Armature/Bone.002/R_Base2/R_Paw2
+        weight: 1
+      - path: Armature/Bone.002/R_Base2/R_Paw2/R_Paw2_end
+        weight: 1
+      - path: Armature/Bone.002/R_Base3
+        weight: 1
+      - path: Armature/Bone.002/R_Base3/R_Paw3
+        weight: 1
+      - path: Armature/Bone.002/R_Base3/R_Paw3/R_Paw3_end
+        weight: 1
+      - path: Armature/group
+        weight: 1
+      - path: Armature/L_BaseWing
+        weight: 1
+      - path: Armature/L_BaseWing/L_Wing
+        weight: 1
+      - path: Armature/L_BaseWing/L_Wing/L_Wing_end
+        weight: 1
+      - path: Armature/L_Shell
+        weight: 1
+      - path: Armature/L_Shell/L_Shell_end
+        weight: 1
+      - path: Armature/L_Shell/R_Shell 1
+        weight: 1
+      - path: Armature/Neck
+        weight: 1
+      - path: Armature/Neck/Head
+        weight: 1
+      - path: Armature/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/R_BaseWing
+        weight: 1
+      - path: Armature/R_BaseWing/R_Wing
+        weight: 1
+      - path: Armature/R_BaseWing/R_Wing/R_Wing_end
+        weight: 1
+      - path: Armature/R_Shell
+        weight: 1
+      - path: Armature/R_Shell/L_Shell 1
+        weight: 1
+      - path: Armature/R_Shell/R_Shell_end
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: C_Antenna
+        weight: 1
+      - path: C_Eyes
+        weight: 1
+      - path: C_FrontDigits
+        weight: 1
+      - path: C_FrontDigits.001
+        weight: 1
+      - path: C_FrontThighs
+        weight: 1
+      - path: C_FrontThighs.001
+        weight: 1
+      - path: C_Head
+        weight: 1
+      - path: C_HindDigits.001
+        weight: 1
+      - path: C_HindThighs
+        weight: 1
+      - path: C_HindThighs.001
+        weight: 1
+      - path: C_HindWristLower
+        weight: 1
+      - path: C_MiddleLeg
+        weight: 1
+      - path: C_MiddleLeg.001
+        weight: 1
+      - path: C_MiddleThighs
+        weight: 1
+      - path: C_MiddleThighs.001
+        weight: 1
+      - path: C_Mouth
+        weight: 1
+      - path: C_Neck
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
