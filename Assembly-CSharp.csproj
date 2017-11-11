@@ -46,9 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scrips\AntiBug.cs" />
-     <Compile Include="Assets\scrips\Player.cs" />
-     <Compile Include="Assets\scrips\Sugar.cs" />
+     <Compile Include="Assets\scripts\AntiBug.cs" />
+     <Compile Include="Assets\scripts\CameraController.cs" />
+     <Compile Include="Assets\scripts\Player.cs" />
+     <Compile Include="Assets\scripts\Sugar.cs" />
      <None Include="Assets\Fantasy Forest Set\Sources\Shaders\Vegitation.shader" />
      <None Include="Assets\Fantasy Forest Set\Sources\Shaders\Grid.shader" />
      <None Include="Assets\Fantasy Forest Set\Sources\Shaders\StandardSpecular_2Sided.shader" />
