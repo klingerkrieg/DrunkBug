@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour {
 
 
-	public float sugar = 5000;
+	public float sugar = 4000;
 	public Animator anim;
 	public Rigidbody rb;
 	public int flyMaxSpeed = 100;
@@ -16,6 +16,7 @@ public class Player : MonoBehaviour {
 	public float walkRotate = 1.0f;
 
 	private bool flying = false;
+	private bool falling = false;
 
 	private float walkingDrag = 40;
 
@@ -43,18 +44,24 @@ public class Player : MonoBehaviour {
 		sugarCount.text = "Sugar:" + (int)sugar;
 
 		if (Input.GetKeyDown (KeyCode.Space)) {
-			anim.SetBool ("flying", true);
 			rb.useGravity = false;
 			rb.velocity = Vector3.zero;
 			transform.position += Vector3.up;
 			flying = true;
+			falling = false;
 		} if (Input.GetKeyUp (KeyCode.Space)) {
-			anim.SetBool ("flying", false);
 			rb.useGravity = true;
 			flying = false;
+			falling = true;
 		}
 
-		if (Input.GetKeyDown (KeyCode.LeftShift)) {
+		if (flying || falling) {
+			anim.SetBool ("flying", true);
+		} else {
+			anim.SetBool ("flying", false);
+		}
+
+		if (Input.GetKeyDown (KeyCode.LeftShift) && flying) {
 			up = true;
 		} else if (Input.GetKeyUp (KeyCode.LeftShift)){
 			up = false;
@@ -197,6 +204,14 @@ public class Player : MonoBehaviour {
 
 		}
 
+		if (flying) {
+			rb.drag = 0;
+		} else
+		if (falling) {
+			//rb.AddForce (transform.up * 60);
+			rb.drag = 4;
+		}
+
 
 	}
 
@@ -213,6 +228,7 @@ public class Player : MonoBehaviour {
 	void OnCollisionStay (Collision col) {
 		if (Physics.Raycast (transform.position, transform.up * -2, 1)) {
 			rb.drag = walkingDrag;
+			falling = false;
 		}
 
 	}
